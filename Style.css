@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  font-family: 'DM Serif Display', serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Instrument Serif', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poor Story', system-ui;
+font-family: 'Roboto', sans-serif;
+font-family: 'Seymour One', sans-serif;
+}
+.container{
+  height:50vh;
+  display:block;
+  width:70%;
+  margin:25vh auto;
+}
+.container img{
+  width:100%;
+}
+.container h1{
+  text-align: center;
+  position: relative;
+  top:10px;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Instrument Serif', serif;
+}
+section{
+  position: absolute;
+  bottom: 100px;
+}
+.fb{
+  margin:3px;
+  position: absolute;
+  left:3px;
+}
+.insta{
+  margin:3px;
+  position: absolute;
+  left:450px;
+}
+.email{
+  margin:3px;
+  position:absolute;
+  left:900px;
+}
+footer{
+  background-color: aliceblue;
+  font-size:50px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: beige;
+}
